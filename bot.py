@@ -17,12 +17,12 @@ from urllib.parse import urljoin
 # ==========================================
 # Configuration (Token & Owner ID)
 # ==========================================
-TOKEN = os.environ.get("BOT_TOKEN", "8889172851:AAFqYzSEIgF3FTpsV_5hT-8PBLhsUsGZYcM")
+TOKEN = os.environ.get("BOT_TOKEN", "8509556328:AAGBYvlQ0ILtm79UnMC9-ymBlDTYD_dHMHc")
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}/"
 
-OWNER_ID = int(os.environ.get("BOT_OWNER_ID", "8471221834"))
-BOT_USERNAME = "@Alonectestingbot"
+OWNER_ID = int(os.environ.get("BOT_OWNER_ID", "8913693655"))
+BOT_USERNAME = "@PrinceXfree_bot"
 BOT_NAME = "Test"
 DB_PATH = "data/bot.db"
 
